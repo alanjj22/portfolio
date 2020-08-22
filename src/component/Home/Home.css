@@ -1,0 +1,22 @@
+.profile{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+    padding: 5vh;
+}
+
+.profile-content{
+    font-size: 1.5rem;
+    line-height: .75rem;
+    letter-spacing: .04rem;
+    padding: 2vh;
+}

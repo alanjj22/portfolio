@@ -1,0 +1,28 @@
+.project-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-heading{
+    writing-mode: vertical-lr;
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: .2rem;
+    padding: 2vh;
+    margin: 3vh;
+    background: #000;
+    color: antiquewhite;
+    max-width: 10%;
+}
+.project{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 80%;
+}
+.project-card{
+    width: 20vh;
+    height: 20vh;
+    border: 3px solid black;
+    margin: 3vh;
+}

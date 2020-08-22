@@ -1,0 +1,19 @@
+.contact-main{
+    width: 100%;
+}
+.contact-heading{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 2vh;
+}
+
+.contact-icons{
+    display: flex;
+    justify-content: space-around;
+    margin: 4vh;
+}
+
+.contact-icon {
+    font-size: 2rem;
+}
