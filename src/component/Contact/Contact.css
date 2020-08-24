@@ -1,9 +1,11 @@
 .contact-main{
     width: 100%;
+    background-color: rgb(128, 221, 245);
+    color: white;
 }
 .contact-heading{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bolder;
     margin: 2vh;
 }

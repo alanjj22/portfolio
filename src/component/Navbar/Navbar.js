@@ -27,11 +27,11 @@ class Navbar extends Component {
                         <div className="toggle-bar"></div>
                     </div>
                 </div>
-                <ul className = {this.state.isOpen ? 'showNav' : 'undefined'}>
-                    <li onClick={this.showNav}><Link to="/About">About</Link></li>
-                    <li onClick={this.showNav}><Link to="/Skills">Skills</Link></li>
-                    <li onClick={this.showNav}><Link to="/Projects">Projects</Link></li>
-                    <li onClick={this.showNav}><Link to="/Contact">Contact</Link></li>
+                <ul className = {this.state.isOpen ? 'showNav' : 'noNav'}>
+                    <li className="showNavList" onClick={this.showNav}><Link to="/About">About</Link></li>
+                    <li className="showNavList" onClick={this.showNav}><Link to="/Skills">Skills</Link></li>
+                    <li className="showNavList" onClick={this.showNav}><Link to="/Projects">Projects</Link></li>
+                    <li className="showNavList" onClick={this.showNav}><Link to="/Contact">Contact</Link></li>
                 </ul>
             </div>
         )

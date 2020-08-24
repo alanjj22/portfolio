@@ -12,7 +12,7 @@ class Home extends Component {
                 <img src={Profile} alt="Profile_picture"/>
                 <div className="profile-content">
                     <p>
-                        This my profile i'll write whatever i want
+                        React developer
                     </p>
                 </div>
                 <Skills />

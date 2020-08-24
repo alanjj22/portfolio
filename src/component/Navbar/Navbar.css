@@ -1,10 +1,14 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
+
 
 .home{
     height: 6vh;
+    display: flex;
+    align-items: center;
 }
 
 .home a{
@@ -17,67 +21,74 @@
 }
 
 .toggle-icon{
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     display: inline-block;
+    margin: 2vh;
 }
 
 .toggle-bar{
     height: 5px;
     width: 28px;
     margin: 3px;
-    background: black;
+    background: rgb(255, 255, 255);
 }
 
 .navbar-logo-toggle{
-    background-color: rgb(248, 99, 99);
+    background-color: rgb(67, 181, 201);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-ul li a{
+.showNavList a{
     text-decoration: none;
     color: white;
 }
 
-ul li{
-    background-color: brown;
-    margin: 2px;
-    padding: 3px;
-    font-size: 5vh;
-}
-ul{
-    list-style-type: none;
-    height: 0px;
-    overflow: hidden;
+.showNavList{
+    background-color: rgb(159, 222, 233);
+    margin: 1vh;
+    padding: 2vh;
+    font-size: 2rem;
 }
 .showNav{
+    list-style-type: none;
     height: auto;
+    overflow: hidden;
+    margin: 0px;
 }
+.noNav{
+    display: none;
+}
+
 
 @media screen and (min-width:720px){
     .main{
-        background-color: rgb(248, 99, 99);
+        background-color: rgb(68, 221, 241);
         display: flex;
         justify-content: space-between;
         align-items: center ;
+        height: 8vh;
+    }
+    .home{
+        background-color: rgb(68, 221, 241);
     }
     .toggle-icon{
         display: none;
     }
 
-    ul li a{
+    .showNavList a{
         text-decoration: none;
         color: white;
+        background-color: rgb(68, 221, 241);
     }
     
-    ul li{
-        background-color: brown;
+    .showNavList{
         margin: 2px;
         padding: 3px;
-        font-size: 25px;
+        font-size: 2rem;
     }
-    ul{
+    .showNav, .noNav{
         display: flex;
         list-style-type: none;
         height: auto;
@@ -86,5 +97,5 @@ ul{
     .showNav{
         height: auto;
     }
-
+    
 }

@@ -7,18 +7,19 @@ class Skills extends Component {
             <div className="skills">
                 <div className="skill-head">Skills</div>
                 <div className="skill-content">
-                    <div className="skill-type">
-                        <h2>Programming</h2>
+                <div className="skill-type">
+                        <h2>Web Development</h2>
                         <ul className="skill-list">
-                            <li>c</li>
-                            <li>c++</li>
+                            <li>React JS</li>
+                            <li>HTML/CSS</li>
+                            <li>JS</li>
                         </ul>
                     </div>
                     <div className="skill-type">
-                        <h2>Web Development</h2>
+                        <h2>Programming</h2>
                         <ul className="skill-list">
-                            <li>c</li>
-                            <li>c++</li>
+                            <li>CPP</li>
+                            <li>C</li>
                         </ul>
                     </div>
                 </div>

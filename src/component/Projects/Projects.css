@@ -11,8 +11,8 @@
     letter-spacing: .2rem;
     padding: 2vh;
     margin: 3vh;
-    background: #000;
-    color: antiquewhite;
+    background-color: rgb(128, 221, 245);
+    color: rgb(255, 255, 255);
     max-width: 10%;
 }
 .project{
@@ -21,8 +21,25 @@
     min-width: 80%;
 }
 .project-card{
-    width: 20vh;
-    height: 20vh;
-    border: 3px solid black;
+    width: 30vh;
+    height: 30vh;
+    border: 3px solid rgb(128, 221, 245);
     margin: 3vh;
+    text-align: center;
 }
+
+@media screen and (max-width:860px){
+
+    .project-main{
+        width: 100%;
+    }
+    .project-heading{
+        writing-mode: vertical-lr;
+        text-align: center;
+    }
+
+    .project{
+        flex-flow: column;
+        align-items: center;
+    }    
+}   
